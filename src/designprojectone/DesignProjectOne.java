@@ -10,7 +10,7 @@ import java.util.Scanner;
 *  Program: Tech Fair Cost Calculator
 *  Author: Andrew
 *  Date: 03/07/24
-*  Description: Calculates the materials cost for the RHHS Technology Science Fair
+*  Description: Calculates the materials cost/student for the RHHS Technology Science Fair
 ****************************************************/
 
 /**************** IPO CHART ************************
@@ -44,14 +44,14 @@ import java.util.Scanner;
 ***************************************************/
   
 /**************** TEST CASES ************************
-*Test      Input (arduino, raspPi, vr)    Desired Ouput (avgCostRounded)   Actual Output     
-* 1                 0,0,0                           0                       0      
-* 2                 10,10,10                       65                       65
-* 3                 50,50,50                       61.17                  61.17
-* 4                 15, 20, 0
-* 5
-* 6
-* 7
+*Test      Input (arduino, raspPi, vr)  Desired Ouput (avgCostRounded)  Actual Output     
+* 1                 0,0,0                          0                       0      
+* 2                 10,10,10                      65                       65
+* 3                 50,50,50                     61.17                    61.17
+* 4                 15,20,0                      62.86                    62.86
+* 5                 16,21,0                      60.70                    60.7
+* 6                 20,0,20                       64.5                     64.5
+* 
 ***************************************************/
 public class DesignProjectOne {
 
